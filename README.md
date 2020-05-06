@@ -6,7 +6,7 @@
 
 2. [Organization search notebook](https://github.com/skaryaeva/urban_studies_notebooks/blob/master/yandex_organization_api.ipynb) works with [Yandex Organization search](https://tech.yandex.ru/maps/geosearch/doc/concepts/request-docpage/), retrieving organization points with coordinates accordind to given list of types within bounding box. Free limit with API key is 500 requests per day, 500 organizations in each request
 
-3. [Isolines notebook](https://github.com/skaryaeva/urban_studies_notebooks/blob/master/isohrones_api.ipynb) works with [HERE isoline API](https://developer.here.com/documentation/routing/dev_guide/topics/resource-calculate-isoline.html), returning polygons of isolines for given list of points, free limit with API key is 250K requests per month
+3. [Isolines notebook](https://github.com/skaryaeva/urban_studies_notebooks/blob/master/isohrones_api.ipynb) works with [HERE isoline API](https://developer.here.com/documentation/routing/dev_guide/topics/resource-calculate-isoline.html), returning polygons of isolines for given list of points in format suitable for `folium`, free limit with API key is 250K requests per month
 
 
 All the data examples used for notebooks are contained in `input_params.xlsx`, example for API keys storage is in `api_keys_example.xlsx`
@@ -20,5 +20,5 @@ Libraries used:
 
 ## Issues list
 
-- isolines data is not saved in original points dataframe
+- wanna save isohrone data in WKT format
 - yandex organization search doesnt work with given list of types yet
