@@ -19,6 +19,4 @@ Libraries used:
 
 
 ## Issues list
-
 - wanna save isohrone data in WKT format
-- yandex organization search doesnt work with given list of types yet
